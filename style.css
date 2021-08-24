@@ -1,0 +1,47 @@
+
+canvas {
+    box-shadow: 2px 2px 2000px 2px white;
+   
+}
+
+.btn-success:hover {
+    background-color:lightblue;
+    border-color: lightblue;
+    box-shadow: 20px 20px 200px 20px white;
+}
+
+.btn-success {
+    margin-top: 650px;
+    font-family: 'Kalam', cursive;
+}
+
+#heading {
+    font-family: 'Merienda', cursive;
+    color: white;
+    font-size: 25px !important;
+    border-color: white;
+    
+}
+#heading:hover {
+    box-shadow: 20px 20px 200px 20px white;
+    border-radius: 10px;
+    border-width: 1.5px;
+
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
